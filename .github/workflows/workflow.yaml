@@ -1,0 +1,27 @@
+name: lets-learn
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  test:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v1
+        - name: Running Tests
+          run: |
+            npm install 
+            npm run test
+          env:
+            CI: true
+  build:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v1
+          - name: Creating Build
+            run:  |
+              npm install
+              npm run build
