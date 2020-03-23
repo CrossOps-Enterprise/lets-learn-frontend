@@ -1,6 +1,6 @@
 # Engineering Onboarding Guide
 
-![](https://github.com/CrossOps-Enterprise/lets-learn-frontend/workflows/.github/workflows/workflow.yaml/badge.svg)
+![](https://github.com/CrossOps-Enterprise/lets-learn-frontend/workflows/lets-learn/badge.svg)
 
 Hey there! You're probably reading this because you've been invited to take one of our code challenges or are working on an engineering project. Welcome!
 
