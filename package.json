@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo Error: No tests Specified",
-    "start": "webpack-dev-server --open --hot --mode development --progress",
+    "start": "webpack-dev-server --mode production --progress",
+    "start:dev": "webpack-dev-server --open --hot --mode development --progress",
     "build": "webpack --mode production --progress",
+    "build:dev": "webpack --mode development --progress",
     "lint:standard": "standard",
     "lint:standard:fix": "standard --fix",
     "lint:prettier": "prettier --check './**/*.{html,css,json,md}'",
