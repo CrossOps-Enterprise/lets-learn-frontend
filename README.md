@@ -1,6 +1,6 @@
 # Engineering Onboarding Guide
 
-[![Build Status](https://travis-ci.com/umairx97/lets-learn-git.svg?branch=master)](https://travis-ci.com/umairx97/lets-learn-git)
+![](https://github.com/CrossOps-Enterprise/lets-learn-frontend/workflows/.github/workflows/workflow.yaml/badge.svg)
 
 Hey there! You're probably reading this because you've been invited to take one of our code challenges or are working on an engineering project. Welcome!
 
