@@ -1,6 +1,6 @@
 # Engineering Onboarding Guide
 
-![](https://github.com/CrossOps-Enterprise/lets-learn-frontend/workflows/lets-learn/badge.svg)
+![](https://github.com/CrossOps-Enterprise/lets-learn-frontend/workflows/lets-learn/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/d312da9a-484a-4e66-b6b2-75158b3bc8b7/deploy-status)](https://app.netlify.com/sites/lets-learn-frontend/deploys)
 
 Hey there! You're probably reading this because you've been invited to take one of our code challenges or are working on an engineering project. Welcome!
 
