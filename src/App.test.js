@@ -1,10 +1,10 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Test from './Test.js'
+import App from './App'
 
 describe('Test component', () => {
   it('should render "Test component"', () => {
-    const component = shallow(<Test />)
-    expect(component.text()).toEqual('Test component')
+    const component = shallow(<App />)
+    expect(component.text()).toEqual('Hello world')
   })
 })
