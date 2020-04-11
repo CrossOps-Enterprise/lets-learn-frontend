@@ -46,5 +46,8 @@ module.exports = {
       template: './public/index.html',
       filename: './index.html'
     })
-  ]
+  ],
+  resolve: {
+    extensions: ['.js', '.jsx', ',css', '.scss']
+  }
 }
