@@ -1,3 +1,4 @@
+const path = require('path')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 module.exports = {
   module: {
@@ -24,5 +25,11 @@ module.exports = {
       template: './public/index.html',
       filename: './index.html'
     })
-  ]
+  ],
+  resolve: {
+    alias: {
+      '@src': path.resolve(__dirname, 'src'),
+      '@components': path.resolve(__dirname, 'src/components')
+    }
+  }
 }
